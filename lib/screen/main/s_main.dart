@@ -31,6 +31,8 @@ class MainScreenState extends State<MainScreen>
 
   bool get extendBody => true;
 
+  static double get bottomNavigatorHeight => 50;
+
   static double get bottomNavigationBarBorderRadius => 30.0;
 
   @override
